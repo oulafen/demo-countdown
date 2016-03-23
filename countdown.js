@@ -9,7 +9,7 @@ endTime.setDate(endTime.getDate() + 1);
 var curShowTimeSeconds = 0;
 
 var balls = [];
-const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', '#00eecc', '#aa11cc', '#99ffcc', '#8822dd'];
+const colors = ["#33B5E5","#0099CC","#AA66CC","#9933CC","#99CC00","#669900","#FFBB33","#FF8800","#FF4444","#CC0000"];
 
 window.onload = function () {
     initSize();
@@ -143,7 +143,7 @@ function render(context) {
 }
 
 function renderDigit(x, y, num, context) {
-    context.fillStyle = 'blue';
+    context.fillStyle = 'rgb(0,102,153)';
 
     for (var i = 0; i < digit[num].length; i++) {//行
         for (var j = 0; j < digit[num][i].length; j++) { //列
