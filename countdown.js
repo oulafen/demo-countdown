@@ -97,7 +97,7 @@ function updateBalls() {
         }
     }
 
-    //维护数组
+    //维护数组，避免内存报警
     var cnt = 0;
     for (var j = 0; j < balls.length; j++) {
         if ((balls[j].x + R) > 0 && (balls[j].x - R) < WINDOW_WIDTH) {
