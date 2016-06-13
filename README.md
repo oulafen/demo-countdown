@@ -1,5 +1,5 @@
 # 使用canvas实现酷炫倒计时
-示例地址：[链接](http://oulafen.github.io/demo-countdown/)
+示例地址：[http://blog.oulafen.com/demo-countdown/](http://blog.oulafen.com/demo-countdown/)
 
 ## 数字的实现
 由小球组成的数字是使用 二维数组 + canvas
